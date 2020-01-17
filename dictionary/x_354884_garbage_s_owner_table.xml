@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="owner_table" max_length="40" name="x_354884_garbage_s_owner_table" type="collection">
+        <element label="Email ID" max_length="30" name="email_id" type="string"/>
+        <element choice="1" display="true" label="locality" max_length="40" name="locality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="block-a" sequence="0" value="block-a"/>
+                <element inactive_on_update="false" label="block-b" sequence="1" value="block-b"/>
+                <element inactive_on_update="false" label="block-c" sequence="2" value="block-c"/>
+                <element inactive_on_update="false" label="block-d" sequence="3" value="block-d"/>
+                <element inactive_on_update="false" label="block-e" sequence="4" value="block-e"/>
+            </choice>
+        </element>
+        <element label="Owner name" max_length="30" name="owner_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="0" label="Total_members" max_length="40" name="total_members" type="integer"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

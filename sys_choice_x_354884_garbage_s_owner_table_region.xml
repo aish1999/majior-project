@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="region" table="x_354884_garbage_s_owner_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>block-a</label>
+            <language>en</language>
+            <name>x_354884_garbage_s_owner_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-09 05:19:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a97b5ecdb5a881065688e47489619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-09 05:19:13</sys_updated_on>
+            <value>block-a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>block-b</label>
+            <language>en</language>
+            <name>x_354884_garbage_s_owner_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-09 05:19:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a97b5ecdb5a881065688e47489619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-09 05:19:13</sys_updated_on>
+            <value>block-b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>block-c</label>
+            <language>en</language>
+            <name>x_354884_garbage_s_owner_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-09 05:19:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c697b5ecdb5a881065688e47489619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-09 05:19:13</sys_updated_on>
+            <value>block-c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>block-d</label>
+            <language>en</language>
+            <name>x_354884_garbage_s_owner_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-09 05:19:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4697b5ecdb5a881065688e47489619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-09 05:19:13</sys_updated_on>
+            <value>block-d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>block-e</label>
+            <language>en</language>
+            <name>x_354884_garbage_s_owner_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-09 05:19:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c297b5ecdb5a881065688e47489619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-09 05:19:13</sys_updated_on>
+            <value>block-e</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <name>x_354884_garbage_s_owner_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-09 05:19:13</sys_created_on>
+            <sys_id>4297b5ecdb5a881065688e47489619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>region</sys_name>
+            <sys_package display_value="garbage_sys" source="x_354884_garbage_s">a35079e4db5a881065688e474896199a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="garbage_sys">a35079e4db5a881065688e474896199a</sys_scope>
+            <sys_update_name>sys_choice_x_354884_garbage_s_owner_table_region</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-09 05:19:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

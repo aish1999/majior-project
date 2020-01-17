@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="member_registration" max_length="40" name="x_354884_garbage_s_member_registration" type="collection">
+        <element label="Email ID" max_length="30" name="email_id" type="string"/>
+        <element choice="1" label="locality" max_length="40" name="locality" reference="x_354884_garbage_s_owner_table" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="block-a" sequence="0" value="block-a"/>
+                <element inactive_on_update="false" label="block-b" sequence="1" value="block-b"/>
+                <element inactive_on_update="false" label="block-c" sequence="2" value="block-c"/>
+                <element inactive_on_update="false" label="block-d" sequence="3" value="block-d"/>
+                <element inactive_on_update="false" label="block-e" sequence="4" value="block-e"/>
+            </choice>
+        </element>
+        <element label="Member name" max_length="40" name="member_name" type="string"/>
+        <element label="Mobile num" max_length="40" name="mobile_num" type="string"/>
+    </element>
+</database>
